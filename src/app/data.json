@@ -1,0 +1,25 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "tag": "Business",
+      "title": "What Is?",
+      "author": "Nathan Schrader",
+      "imgUrl": "/static/images/beach.jpeg"
+    },
+    {
+      "id": "2",
+      "tag": "Eschatology",
+      "title": "Is The Russia / Ukraine War A Sign Of The Times And What's Coming Next Afer This Decade Of Global News?",
+      "author": "Nathan Schrader",
+      "imgUrl": "/static/images/escatology.jpeg"
+    },
+    {
+      "id": "3",
+      "tag": "Fitness",
+      "title": "The One Thing That Decreases Your Testosterone Level",
+      "author": "Nathan Schrader",
+      "imgUrl": "/static/images/fitness.jpeg"
+    }
+  ]
+}

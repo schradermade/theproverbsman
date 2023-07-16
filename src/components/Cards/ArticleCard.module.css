@@ -1,0 +1,47 @@
+.container {
+    /* min-width: 300px; */
+    max-width: 500px;
+    /* height: fit-content; */
+}
+
+.innerContainer {
+    display: flex;
+    column-gap: 14px;
+    width: 100%;
+    height: fit-content;
+}
+
+.textContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    row-gap: 10px;
+}
+
+.title {
+    color: rgb(221, 221, 221);
+    font-size: 10px;
+}
+
+/* Single Article
+Articles (3)
+Trending - horizontal scroll
+Discover - horizontal scroll
+Cover Story
+Subscription cta
+Featured
+Articles (3)
+Featured
+Articles (3)
+Featured
+Articles (3)
+"our mission" - with "Discover" button
+Featured
+Articles (3)
+Featured
+Articles (3)
+Featured
+Articles (3)
+Featured
+Articles (3) */

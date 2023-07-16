@@ -4,6 +4,7 @@ specifiers:
   '@types/node': 20.4.2
   '@types/react': 18.2.15
   '@types/react-dom': 18.2.7
+  classnames: ^2.3.2
   eslint: 8.45.0
   eslint-config-next: 13.4.10
   next: 13.4.10
@@ -15,6 +16,7 @@ dependencies:
   '@types/node': 20.4.2
   '@types/react': 18.2.15
   '@types/react-dom': 18.2.7
+  classnames: 2.3.2
   eslint: 8.45.0
   eslint-config-next: 13.4.10_ko3fmmbeyij36muomfgt2u76xu
   next: 13.4.10_biqbaboplfbrettd7655fr4n2y
@@ -503,6 +505,10 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
+    dev: false
+
+  /classnames/2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==}
     dev: false
 
   /client-only/0.0.1:
