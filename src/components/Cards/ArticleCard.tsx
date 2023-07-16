@@ -37,7 +37,7 @@ const ArticleCard: React.FC<Props> = ({ article }) => {
             alt="beach"
             width={105}
             height={105}
-            // className={styles.image}
+            className={styles.image}
           />
 
           <div className={cls(styles.textContainer)}>

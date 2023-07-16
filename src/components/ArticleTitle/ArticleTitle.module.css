@@ -1,8 +1,9 @@
 .copy {
     display: block;
-    color: #253a43;
-    font-size: 22px;
-line-height: 1;
+    /* color: #253a43; */
+    color: #fee6ca;
+    font-size: 18px;
+    line-height: 1.25;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;  

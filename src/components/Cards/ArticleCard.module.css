@@ -11,6 +11,10 @@
     height: fit-content;
 }
 
+.image {
+    border: .5px solid gray;
+}
+
 .textContainer {
     width: 100%;
     display: flex;
