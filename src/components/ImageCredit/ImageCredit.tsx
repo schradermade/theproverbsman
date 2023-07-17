@@ -1,6 +1,6 @@
 import React from "react";
 import { Work_Sans } from "next/font/google";
-import styles from "./AuthorSig.module.css";
+import styles from "./ImageCredit.module.css";
 import cls from "classnames";
 
 type Props = {
@@ -9,12 +9,12 @@ type Props = {
 
 const work_sans = Work_Sans({ subsets: ["latin"], weight: "400" });
 
-const AuthorSig: React.FC<Props> = ({ copy }) => {
+const ImageCredit: React.FC<Props> = ({ copy }) => {
   return (
     <>
-      <p className={cls(work_sans.className, styles.copy)}>By {copy}</p>
+      <p className={cls(work_sans.className, styles.copy)}>{copy}</p>
     </>
   );
 };
 
-export default AuthorSig;
+export default ImageCredit;

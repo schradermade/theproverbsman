@@ -1,4 +1,6 @@
+import Article from "@/features/Article/Article";
 import { Metadata } from "next";
+import styles from "./page.module.css";
 
 type Props = {
   params: any;
@@ -15,7 +17,9 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
 const ArticlePage = async ({ params, error }: any) => {
   return (
     <>
-      <div style={{ color: "black" }}>Article Page: {params.id}</div>
+      <div>
+        <Article />
+      </div>
     </>
   );
 };

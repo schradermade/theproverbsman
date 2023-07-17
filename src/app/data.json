@@ -2,24 +2,30 @@
   "articles": [
     {
       "id": "1",
+      "createdAt": "July 4th, 2023",
       "tag": "Business",
       "title": "What Is?",
       "author": "Nathan Schrader",
-      "imgUrl": "/static/images/beach.jpeg"
+      "imgUrl": "/static/images/beach.jpeg",
+      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       "id": "2",
+      "createdAt": "July 4th, 2023",
       "tag": "Eschatology",
       "title": "Is The Russia / Ukraine War A Sign Of The Times And What's Coming Next Afer This Decade Of Global News?",
       "author": "Nathan Schrader",
-      "imgUrl": "/static/images/escatology.jpeg"
+      "imgUrl": "/static/images/escatology.jpeg",
+      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       "id": "3",
+      "createdAt": "July 4th, 2023",
       "tag": "Fitness",
       "title": "The One Thing That Decreases Your Testosterone Level",
       "author": "Nathan Schrader",
-      "imgUrl": "/static/images/fitness.jpeg"
+      "imgUrl": "/static/images/fitness.jpeg",
+      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
   ]
 }

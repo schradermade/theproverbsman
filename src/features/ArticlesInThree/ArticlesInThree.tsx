@@ -1,12 +1,12 @@
 import React from "react";
 import ArticleCard, { Article } from "@/components/Cards/ArticleCard";
-import styles from "./Articles.module.css";
+import styles from "./ArticlesInThree.module.css";
 
 type Props = {
   articles: Article[];
 };
 
-const Articles: React.FC<Props> = ({ articles }) => {
+const ArticlesInThree: React.FC<Props> = ({ articles }) => {
   return (
     <div className={styles.container}>
       {articles.length > 0 && (
@@ -24,4 +24,4 @@ const Articles: React.FC<Props> = ({ articles }) => {
   );
 };
 
-export default Articles;
+export default ArticlesInThree;

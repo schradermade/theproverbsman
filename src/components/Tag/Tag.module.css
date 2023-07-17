@@ -1,8 +1,9 @@
 .copy {
     height: 25px;
     /* color: #CC3340; */
-    color: #92b300;
+    color: #7f9c00;
     font-size: 14px;
+    line-height: 1;
     letter-spacing: .25px;
     height: fit-content;
     width: 100%;

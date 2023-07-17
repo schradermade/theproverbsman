@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import { articles } from "./data.json";
-import Articles from "../features/Articles/Articles";
+import ArticlesInThree from "../features/ArticlesInThree/ArticlesInThree";
 
 export default function Home() {
   console.log("ARTICLES:", articles);
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <main className={styles.main}>
-        <Articles articles={articles} />
+        <ArticlesInThree articles={articles} />
       </main>
     </>
   );
